@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+
+            <div id="myDIV" class="header">
+                <h2>My To Do List</h2>
+                <input type="text" id="myInput" placeholder="Enter Your Task...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+              </div>
+              
+              <ul id="myUL">
+                <li>Complete Task</li>
+                <li class="checked">Complete Assignment</li>
+                <li>Get Prepare</li>
+                <li>Write Somthing </li>
+                <li>Dsa Question</li>
+                <li>Play Cricket</li>
+                <li>Became a Programer</li>
+                <li>Always Code</li>
+              </ul>
+              
+            <div class="row">
+                <input type="date" id="deadline-input">
+                <select id="priority-input">
+                    <option value="Good">Good</option>
+                    <option value="Best">best</option>
+                    <option value="Better">Better</option>
+                </select>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
